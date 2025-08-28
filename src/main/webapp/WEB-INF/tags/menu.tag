@@ -54,7 +54,7 @@
                     </c:otherwise>
                 </c:choose>
                 <li class="${cssMenu}"><a href="<spring:url value="/oups.html" htmlEscape="true" />"
-                       title="trigger a RuntimeException to see how it is handled"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span> Errors</span></a></li>
+                       title="trigger a RuntimeException to see how it is handled"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span> Error Page</span></a></li>
             </ul>
         </div> <%--/.nav-collapse --%>
     </div> <%--/.container-fluid --%>
